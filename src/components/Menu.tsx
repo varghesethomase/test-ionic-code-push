@@ -11,8 +11,8 @@ import './Menu.css'
 
 const routes = {
   appPages: [
-    { title: 'Schedule', path: '/tabs/schedule', icon: calendarOutline },
-    { title: 'Speakers', path: '/tabs/speakers', icon: peopleOutline },
+    { title: 'Schedule is new', path: '/tabs/schedule', icon: calendarOutline },
+    { title: 'Speakers are new', path: '/tabs/speakers', icon: peopleOutline },
     { title: 'Map', path: '/tabs/map', icon: mapOutline },
     { title: 'About', path: '/tabs/about', icon: informationCircleOutline }
   ],
@@ -84,7 +84,7 @@ const Menu: React.FC<MenuProps> = ({ darkMode, history, isAuthenticated, setDark
             history.push('/tutorial');
           }}>
             <IonIcon slot="start" icon={hammer} />
-            Show Tutorial
+            Show Tutorial 
           </IonItem>
         </IonList>
       </IonContent>
